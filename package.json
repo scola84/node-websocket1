@@ -1,0 +1,23 @@
+{
+  "name": "scola-websocket",
+  "version": "1.0.0",
+  "description": "A high-level WebSocket library",
+  "keywords": [
+    "websocket"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scola84/node-websocket.git"
+  },
+  "dependencies": {
+    "cuid": "^1.3.8",
+    "di": "scola84/node-di",
+    "lodash": "^3.10.1",
+    "msgpack": "^1.0.2",
+    "ws": "^0.8.0"
+  },
+  "author": "M.C. van den Boogaart <scola@kvdb.name>",
+  "license": "MIT",
+  "main": "index.js"
+}
