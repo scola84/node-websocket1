@@ -2,9 +2,7 @@
   "name": "scola-websocket",
   "version": "1.0.0",
   "description": "A high-level WebSocket library",
-  "keywords": [
-    "websocket"
-  ],
+  "keywords": ["websocket"],
   "scripts": {},
   "repository": {
     "type": "git",
