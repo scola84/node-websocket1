@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "cuid": "^1.3.8",
-    "di": "scola84/node-di",
     "lodash": "^3.10.1",
     "msgpack": "^1.0.2",
+    "scolaEvents": "scola84/node-events",
+    "scolaConfig": "scola84/node-config",
+    "scolaDi": "scola84/node-di",
     "ws": "^0.8.0"
   },
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
