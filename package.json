@@ -1,8 +1,10 @@
 {
-  "name": "scola-websocket",
+  "name": "@scola/websocket",
   "version": "1.0.0",
   "description": "A high-level WebSocket library",
-  "keywords": ["websocket"],
+  "keywords": [
+    "websocket"
+  ],
   "scripts": {},
   "repository": {
     "type": "git",
@@ -10,14 +12,30 @@
   },
   "dependencies": {
     "cuid": "^1.3.8",
-    "lodash": "^3.10.1",
     "msgpack": "^1.0.2",
-    "scolaEvents": "scola84/node-events",
     "scolaConfig": "scola84/node-config",
     "scolaDi": "scola84/node-di",
+    "scolaEvents": "scola84/node-events",
     "ws": "^0.8.0"
   },
   "author": "M.C. van den Boogaart <scola@kvdb.name>",
   "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "browser": {
+    "buffer": false,
+    "ws": false,
+    "./lib/connection/filter/msgpack.js": false,
+    "./lib/helper/readable.js": false
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify", {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  }
 }
