@@ -1,6 +1,6 @@
 'use strict';
 
-const DI = require('scola-di');
+const DI = require('@scola/di');
 
 const Connection = require('./lib/connection');
 const Connector = require('./lib/connector');
