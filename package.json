@@ -12,7 +12,7 @@
   "dependencies": {
     "@scola/config": "^1.0.0",
     "@scola/di": "^1.0.0",
-    "@scola/events": "^1.0.0",
+    "@scola/events": "^1.1.0",
     "cuid": "^1.3.8",
     "msgpack": "^1.0.2",
     "ws": "^0.8.0"
