@@ -1,6 +1,6 @@
 {
   "name": "@scola/websocket",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A high-level WebSocket library",
   "keywords": [
     "websocket"
